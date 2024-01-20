@@ -1,5 +1,5 @@
 {
-  "name": "chat",
+  "name": "task-manager",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.29.0",
+    "@prisma/client": "^5.8.1",
+    "@tailwindcss/typography": "^0.5.10",
+    "axios": "^1.6.2",
+    "mongodb": "^6.3.0",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
+    "daisyui": "^4.4.23",
     "postcss": "^8",
+    "prisma": "^5.8.1",
     "tailwindcss": "^3.3.0"
   }
 }
